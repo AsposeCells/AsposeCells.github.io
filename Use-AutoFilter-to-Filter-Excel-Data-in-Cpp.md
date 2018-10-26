@@ -1,8 +1,3 @@
-<div align="right">
-<a href="https://asposecells.github.io/">Browse Articles</a>
-<hr>
-</div>
-
 # Use AutoFilter to Filter Excel Data in C++
 
 Filtering data based on criteria is a very important feature. It helps the user to understand and analyze data easily. You can use the auto filter feature of Microsoft Excel to find, show or hide values in a single or multiple columns based on the choices that you select from list. When the filter is applied, then all the rows that do not meet your criteria are hidden completely.
