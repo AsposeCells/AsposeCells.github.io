@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About Aspose
+title: About
 tagline: A few more words about Aspose
 ---
 
