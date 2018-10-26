@@ -1,13 +1,11 @@
 ---
 layout: page
-title: Contact Us
+title: Contact
+tagline: Create a contact form and you are good to go	
 ---
 
-In order to contact us, please visit the following web page.
+Please visit the following web page.
 
 * [Contact Us - Aspose](https://company.aspose.com/contact)
 
-Thank you and regards.
-
----
-[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
+Thank you.
