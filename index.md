@@ -12,6 +12,6 @@ Filtering data based on criteria is a very important feature. It helps the user 
 You can use [Aspose.Cells for C++](https://products.aspose.com/cells/cpp) to apply filter on your Excel data programmatically in C# easily with few lines of code.
 
 <div align="right">
-<a href="/Use-AutoFilter-to-Filter-Excel-Data-in-Cpp">Read More...</a>
+<a href="https://asposecells.github.io/Use-AutoFilter-to-Filter-Excel-Data-in-Cpp">Read More...</a>
 </div>
 
