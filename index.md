@@ -1,7 +1,3 @@
-## Welcome to GitHub Pages
+## Welcome to Aspose.Cells
 
-You can use the [editor on GitHub](https://github.com/AsposeCells/AsposeCells.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
+You can use the [editor on GitHub](https://github.com/AsposeCells/AsposeCells.github.io/edit/master/index.md) to maintain and preview the content for your website in Aspose.Cells is a Cross-Platform Excel Spreadsheet Programming API allowing software developers to manipulate and convert spreadsheet files from within their own applications.
