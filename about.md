@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-tagline: A few more words about this Aspose
+tagline: A few more words about Aspose
 ---
 
 Aspose is a leading vendor of .NET, Java, C++, Cloud and Android APIs, web apps, SharePoint and rendering extensions for Microsoft SQL Server Reporting Services and JasperReports with over 17,500 customers in 114 countries.
