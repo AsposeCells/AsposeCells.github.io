@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-tagline: Create a contact form and you are good to go	
+tagline: Contact Us - Aspose
 ---
 
 Please visit the following web page.
