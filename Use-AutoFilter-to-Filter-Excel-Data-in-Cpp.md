@@ -1,5 +1,5 @@
 <div align="right">
-<a href="https://asposecells.github.io/">Blog</a>
+<a href="https://asposecells.github.io/">Browse Articles on Main Page</a>
 <hr>
 </div>
 
