@@ -1,10 +1,5 @@
-theme: jekyll-theme-cayman
+remote_theme: AsposeCells/RT
 title: Aspose.Cells
 description: Aspose.Cells is a Cross-Platform Excel Spreadsheet Programming API allowing software developers to manipulate and convert spreadsheet files from within their own applications.
 
-social-network-links:
-  rss: true
-  email: "someone@example.com"
-  facebook: daattali
-  github: daattali
-  twitter: daattali
+
