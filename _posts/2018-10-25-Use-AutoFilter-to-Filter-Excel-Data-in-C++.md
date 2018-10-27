@@ -32,7 +32,7 @@ For demonstration, we will use the following [sample input Microsoft Excel docum
 
 # Sample Code
 
-The following sample code applies AutoFilter on Microsoft Excel data by performing these steps
+The following [sample code applies AutoFilter on Microsoft Excel](https://gist.github.com/AsposeCells/0919095bebf74907d0971077d454ae98) data by performing these steps
 
 * Load [sample input Microsoft Excel document](https://github.com/AsposeCells/AsposeCells-Screenshots-and-Sample-Files/blob/master/Use%20AutoFilter%20to%20Filter%20Excel%20Data/sampleUseAutoFilterToFilterExcelData.xlsx) containing the sample data for auto filter.
 * Apply auto filter to range.
