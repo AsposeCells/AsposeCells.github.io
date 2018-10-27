@@ -43,11 +43,51 @@ The following sample code applies AutoFilter on Microsoft Excel data by performi
 * Save the workbook in XLSX format. You can also save it in other formats e.g. XLS, XLSB, XLSM etc.
 
 ```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
+// Path of input Excel file.
+intrusive_ptr<Aspose::Cells::System::String> inputExcelFile = new Aspose::Cells::System::String("D:/Download/sampleUseAutoFilterToFilterExcelData.xlsx");
+
+// Path of output Excel file.
+intrusive_ptr<Aspose::Cells::System::String> outputExcelFile = new Aspose::Cells::System::String("D:/Download/outputUseAutoFilterToFilterExcelData.xlsx");
+
+// Declaration of some variables to be used later.
+intrusive_ptr<Aspose::Cells::System::String> strRng;
+intrusive_ptr<Aspose::Cells::System::String> strCriteria;
+
+// Load the input Excel file containing the sample data.
+intrusive_ptr<Aspose::Cells::IWorkbook> wb = Aspose::Cells::Factory::CreateIWorkbook(inputExcelFile);
+
+// Access first worksheet.
+intrusive_ptr<Aspose::Cells::IWorksheet> ws = wb->GetIWorksheets()->GetObjectByIndex(0);
+
+// Apply auto filter to the range.
+strRng = new Aspose::Cells::System::String("D3:G3");
+ws->GetIAutoFilter()->SetRange(strRng);
+
+// Add filter to first column (i.e. Vehicle) inside the range - Criteria --> Bike
+strCriteria = new Aspose::Cells::System::String("Bike");
+ws->GetIAutoFilter()->AddFilter(0, strCriteria);
+
+// Add filter to first column (i.e. Vehicle) inside the range - Criteria --> Car
+strCriteria = new Aspose::Cells::System::String("Car");
+ws->GetIAutoFilter()->AddFilter(0, strCriteria);
+
+// Refresh the auto filter.
+ws->GetIAutoFilter()->Refresh();
+
+// Add filter to second column (i.e. Color) inside the range - Criteria --> Green
+strCriteria = new Aspose::Cells::System::String("Green");
+ws->GetIAutoFilter()->AddFilter(1, strCriteria);
+
+// Add filter to second column (i.e. Color) inside the range - Criteria --> Blue
+strCriteria = new Aspose::Cells::System::String("Blue");
+ws->GetIAutoFilter()->AddFilter(1, strCriteria);
+
+// Refresh the auto filter.
+ws->GetIAutoFilter()->Refresh();
+
+// Save the workbook in XLSX format. 
+// You can also save it to XLS or other formats.
+wb->Save(outputExcelFile, Aspose::Cells::SaveFormat::SaveFormat_Xlsx);
 ```
 
 # Output Microsoft Excel Document by Aspose.Cells after applying AutoFilter
