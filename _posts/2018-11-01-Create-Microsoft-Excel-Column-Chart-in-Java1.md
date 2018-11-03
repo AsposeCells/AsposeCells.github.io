@@ -2,7 +2,7 @@ Chart is a graphical representation of data that enables user to easily understa
 by [Aspose.Cells for Java](https://products.aspose.com/cells/java). As a matter of fact, Aspose.Cells can be used to create, edit and manipulate Excel spreadsheets almost in any platform without any need to install Microsoft Excel or without using any sort of Microsoft Office automation.
 
 **Article Description**
->The purpose of this article is to explain how developers can use AutoFilter to filter Excel data in Java.
+>The purpose of this article is to explain how developers can create Microsoft Excel Column Chart in Java.
 
 **Supported Platforms**
 >[Aspose.Cells](https://products.aspose.com/cells) API supports various platforms including Java, .NET, C++, Android, JavaScript, PHP etc. Besides, [Aspose.Cells is available in Cloud as RESTful APIs](https://products.aspose.cloud/cells).
