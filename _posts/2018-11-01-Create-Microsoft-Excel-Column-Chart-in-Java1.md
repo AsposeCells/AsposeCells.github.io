@@ -36,7 +36,7 @@ The following sample code creates Microsoft Excel Column Chart by performing the
 * Format various chart items e.g. plot area, value axis, category axis, major tick marks etc.
 * Save the workbook in XLSX format. You can also save it in other formats e.g. XLS, XLSB, XLSM etc.
 
->**Gist** - [Create Microsoft Excel Column Chart in Java](https://gist.github.com/AsposeCells/e1029cb702a873dd0c6d434e32240e07)
+>**Gist** - [Create Microsoft Excel Column Chart in Java](https://gist.github.com/AsposeCells/149ca9878189a8c4ee1eeebc2e3c1ff9)
 
 ```js
 // Directory path of input and output files.
