@@ -1,0 +1,2 @@
+XLS is an old but widely used Microsoft Excel format. It is a binary file format and known as Binary Interchange File Format (BIFF). Microsoft Excel still supports XLS format for backward compatibility but since it is an old format, many new features are not supported inside it. For that reason, XLS format is often converted to XLSX format which is a newer Open Office XML-based format and supports all new features of Microsoft Excel.
+
