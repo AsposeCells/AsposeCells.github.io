@@ -14,7 +14,7 @@ You can convert XLS to XLSX manually using Microsoft Excel 2007 or later version
 
 XLS format supports
 
-* 65536 Rows.
+* 65,536 Rows.
 * 256 Columns.
 
 XLSX format supports
