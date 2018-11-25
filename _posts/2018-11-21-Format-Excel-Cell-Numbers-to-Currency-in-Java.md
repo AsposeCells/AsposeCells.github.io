@@ -61,7 +61,7 @@ The following sample code formats Excel cells i.e. G3, G4, G5 and G6 with curren
 * Repeat the second step for cell G4, G5 and G6 with further currency formats.
 * Save the _Aspose.Cells.Workbook_ object in XLSX format. You can also save it to XLS or other Excel formats as per your needs.
 
->Gist - [Format Excel Cell Numbers to Currency - Java](https://gist.github.com/AsposeCells/75b39642657197aea1769ba198fd86f3)
+>**Gist** - [Format Excel Cell Numbers to Currency - Java](https://gist.github.com/AsposeCells/0a3a94799f272c0e882ecec444e5988e)
 
 ```js
 // Directory path for input and output Excel files.
