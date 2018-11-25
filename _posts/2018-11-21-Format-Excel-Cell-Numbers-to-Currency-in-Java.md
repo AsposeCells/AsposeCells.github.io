@@ -61,7 +61,46 @@ The following sample code formats Excel cells i.e. G3, G4, G5 and G6 with curren
 * Repeat the second step for cell G4, G5 and G6 with further currency formats.
 * Save the _Aspose.Cells.Workbook_ object in XLSX format. You can also save it to XLS or other Excel formats as per your needs.
 
-{% gist https://gist.github.com/AsposeCells/75b39642657197aea1769ba198fd86f3 %}
+>Gist - [Format Excel Cell Numbers to Currency - Java](https://gist.github.com/AsposeCells/75b39642657197aea1769ba198fd86f3)
+
+```js
+// Directory path for input and output Excel files.
+String dirPath = "D:/Download/";
+
+// Load the input Excel file inside workbook object.
+com.aspose.cells.Workbook wb = new Workbook(dirPath + "SampleFormatExcelCellNumbersToCurrency.xlsx");
+			
+// Access first worksheet.
+Worksheet ws = wb.getWorksheets().get(0);
+
+// Format Cell G3 with Curreny > Dollar.
+Cell cell = ws.getCells().get("G3");
+Style st = cell.getStyle();
+st.setCustom("\"$\"#,##0.00");
+cell.setStyle(st);
+
+// Format Cell G4 with Curreny > Yaun.
+cell = ws.getCells().get("G4");
+st = cell.getStyle();
+st.setCustom("[$¥-804]#,##0.00");
+cell.setStyle(st);
+
+// Format Cell G5 with Curreny > Pound.
+cell = ws.getCells().get("G5");
+st = cell.getStyle();
+st.setCustom("[$£-809]#,##0.00");
+cell.setStyle(st);
+
+// Format Cell G6 with Curreny > Euro.
+cell = ws.getCells().get("G6");
+st = cell.getStyle();
+st.setCustom("#,##0.00[$€-40B]");
+cell.setStyle(st);
+
+// Save the workbook in XLSX format. 
+// You can also save it to XLS or other formats.
+wb.save(dirPath + "OutputFormatExcelCellNumbersToCurrency.xlsx");
+```
 
 # Output Microsoft Excel XLSX by Aspose.Cells after applying Currency formats
 
