@@ -4,6 +4,71 @@ Microsoft Excel supports wide range of _Number Formats_. One of these number for
 >The purpose of this article is to explain how developers can format Excel cell numbers to currency in Java.
 
 **Supported Platforms**
->Aspose.Cells API supports number of platform e.g. Java, .NET, C++, Android, JavaScript, PHP etc. Besides, Aspose.Cells is available in Cloud as REST or RESTful APIs.
+>[Aspose.Cells](https://products.aspose.com/cells/) API supports number of platform e.g. Java, .NET, C++, Android, JavaScript, PHP etc. Besides, [Aspose.Cells is available in Cloud as REST or RESTful APIs](https://products.aspose.cloud/cells).
+
+**Licensing**
+>Aspose.Cells is paid or commercial api, so it is not free or open source. Without license, it will work in evaluation mode with some limitations. If you want to test Aspose.Cells without evaluation version limitations, you can also request a _30 Day Temporary License_. For more information, please go through [Licensing](https://docs.aspose.com/display/cellsjava/Licensing).
+
+# Format Excel Cell Numbers to Currency using Microsoft Excel
+
+You can format Excel cell numbers to currency using Microsoft Excel by performing these steps.
+
+* _Right Click_ the cell that contains some numeric value.
+* Click _Format Cells…_ from the context menu as shown in snapshot below.
+* Select _Currency_ from _Number Category_ and press _OK_.
+
+![Format Excel Cell Numbers to Currency using Microsoft Excel.](https://raw.githubusercontent.com/AsposeCells/AsposeCells-Screenshots-and-Sample-Files/master/Format-Excel-Cell-Numbers-to-Currency/Format-Excel-Cell-Numbers-to-Currency-Microsoft-Excel.png "Format Excel Cell Numbers to Currency using Microsoft Excel.")
+
+# Currency Custom Number Format Strings of Cell
+
+You can use various types of currency custom number format strings to display currencies e.g. Dollar, Yuan, Pound, Euro etc. and many others.
+
+## Dollar
+```
+"$"#,##0.00
+```
+## Yaun
+```
+[$¥-804]#,##0.00
+```
+
+## Pound
+```
+[$£-809]#,##0.00
+```
+
+## Euro
+```
+#,##0.00[$€-40B]
+```
+
+# Format Excel Cell Numbers to Currency using Aspose.Cells
+
+In the next few sections, we will learn how to use Aspose.Cells API to format Excel cell numbers to currency.
+
+# Sample Input Microsoft Excel Document
+
+For demonstration, we will use the following [sample input Microsoft Excel document](https://github.com/AsposeCells/AsposeCells-Screenshots-and-Sample-Files/blob/master/Format-Excel-Cell-Numbers-to-Currency/SampleFormatExcelCellNumbersToCurrency.xlsx) that contains some numbers in cells G3, G4, G5 and G6. We will apply currency format i.e. Dollar, Yuan, Pound, Euro on these cells respectively.
+
+![Currency formats will be applied on Input Excel file Cells using Aspose.Cells API.](https://raw.githubusercontent.com/AsposeCells/AsposeCells-Screenshots-and-Sample-Files/master/Format-Excel-Cell-Numbers-to-Currency/Input-Excel-File-Format-Excel-Cell-Numbers-To-Currency.png "Currency formats will be applied on Input Excel file Cells using Aspose.Cells API.")
+
+# Sample Code
+
+The following sample code formats Excel cells i.e. G3, G4, G5 and G6 with currency formats i.e. Dollar, Yuan, Pound, Euro respectively by performing these steps.
+
+* Load the [input Excel file](https://github.com/AsposeCells/AsposeCells-Screenshots-and-Sample-Files/blob/master/Format-Excel-Cell-Numbers-to-Currency/SampleFormatExcelCellNumbersToCurrency.xlsx) inside the _Aspose.Cells.Workbook_ object and access the first worksheet.
+* Access first cell i.e. G3 and apply currency format using the _Style.Custom_ property.
+* Repeat the second step for cell G4, G5 and G6 with further currency formats.
+* Save the _Aspose.Cells.Workbook_ object in XLSX format. You can also save it to XLS or other Excel formats as per your needs.
+
+{% gist https://gist.github.com/AsposeCells/75b39642657197aea1769ba198fd86f3 %}
+
+# Output Microsoft Excel XLSX by Aspose.Cells after applying Currency formats
+
+The following snapshot shows the [Output Microsoft Excel XLSX by Aspose.Cells](https://github.com/AsposeCells/AsposeCells-Screenshots-and-Sample-Files/blob/master/Format-Excel-Cell-Numbers-to-Currency/OutputFormatExcelCellNumbersToCurrency.xlsx) after applying currency formats on the cells G3, G4, G5 and G6. Similarly, you can apply all sorts of currency formats on Excel cells using Aspose.Cells API.
+
+![Currency formats applied on Excel cells using Aspose.Cells API.](https://raw.githubusercontent.com/AsposeCells/AsposeCells-Screenshots-and-Sample-Files/master/Format-Excel-Cell-Numbers-to-Currency/Currency-Format-Applied-To-Excel-Cells-Aspose.Cells-API.png "Currency formats applied on Excel cells using Aspose.Cells API.")
+
+
 
 
