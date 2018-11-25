@@ -56,10 +56,10 @@ For demonstration, we will use the following [sample input Microsoft Excel docum
 
 The following sample code formats Excel cells i.e. G3, G4, G5 and G6 with currency formats i.e. Dollar, Yuan, Pound, Euro respectively by performing these steps.
 
-* Load the [input Excel file](https://github.com/AsposeCells/AsposeCells-Screenshots-and-Sample-Files/blob/master/Format-Excel-Cell-Numbers-to-Currency/SampleFormatExcelCellNumbersToCurrency.xlsx) inside the _Aspose.Cells.Workbook_ object and access the first worksheet.
-* Access first cell i.e. G3 and apply currency format using the _Style.Custom_ property.
+* Load the [input Excel file](https://github.com/AsposeCells/AsposeCells-Screenshots-and-Sample-Files/blob/master/Format-Excel-Cell-Numbers-to-Currency/SampleFormatExcelCellNumbersToCurrency.xlsx) inside the _com.aspose.cells.Workbook_ object and access the first worksheet.
+* Access first cell i.e. G3 and apply currency format using the _Style.setCustom()_ method.
 * Repeat the second step for cell G4, G5 and G6 with further currency formats.
-* Save the _Aspose.Cells.Workbook_ object in XLSX format. You can also save it to XLS or other Excel formats as per your needs.
+* Save the _com.aspose.cells.Workbook_ object in XLSX format. You can also save it to XLS or other Excel formats as per your needs.
 
 >**Gist** - [Format Excel Cell Numbers to Currency - Java](https://gist.github.com/AsposeCells/0a3a94799f272c0e882ecec444e5988e)
 
